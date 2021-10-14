@@ -1,0 +1,24 @@
+<!--Add a text input and a button. When the button is clicked it should post an alert saying Valid if the username is-->
+<!--less than or equal to 12 characters, and Invalid otherwise.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Username Length Validator</title>
+</head>
+<body>
+    <input type="text" value="Enter a username" id="txt">
+    <input type="button" value="Validate Length" onclick="validate()">
+</body>
+</html>
+
+<script>
+    function validate() {
+        if (txt.value.length <= 12) {
+            alert('valid');
+        } else {
+            alert('invalid');
+        }
+    }
+</script>

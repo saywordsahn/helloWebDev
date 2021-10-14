@@ -1,0 +1,26 @@
+<!--
+REQUIREMENTS:
+Create a program with a text box and a button. A user should be able to input numbers into this box and when the button is
+clicked the number in the text box is added to a running total and shown to the user (via alert())
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Running Total</title>
+</head>
+<body>
+    <input type="text" id="txt" value="0">
+    <input type="button" value="Add to total" onclick="addToTotal()">
+</body>
+</html>
+
+<script>
+    let total = 0;
+
+    function addToTotal() {
+        total += Number(txt.value);
+        alert(total);
+    }
+</script>

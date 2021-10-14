@@ -1,0 +1,29 @@
+<!--Use two text inputs and two buttons. One text input will hold fahrenheit and the other will hold celsius. -->
+<!--Label the buttons ‘convert to celsius’ and ‘convert to fahrenheit’.-->
+<!--Ex. when convert to celsius is clicked, use the value in the fahrenheit text field to fill the celsius text field. -->
+<!--Implement the convert to fahrenheit side as well.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <input type="text" id="fahr" value="0">
+    <input type="button" value="Convert To Celcius" onclick="convertToCel()">
+    </br>
+    <input type="text" id="cel" value="0">
+    <input type="button" value="Convert To Fahr" onclick="convertToFahr()">
+</body>
+</html>
+
+<script>
+    function convertToCel() {
+        cel.value = (Number(fahr.value) - 32) / 1.8;
+    }
+
+    function convertToFahr() {
+        fahr.value = Number(cel.value) * 1.8 + 32;
+    }
+</script>
