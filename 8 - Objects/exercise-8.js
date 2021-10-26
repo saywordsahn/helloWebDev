@@ -8,5 +8,6 @@ class Hero {
 
 let highlander = new Hero('Highlander', 100);
 
-
 // create two more instances of hero
+// - a hero named 'Mage' with HP = 60
+// - a hero name 'Ranger' with HP = 80

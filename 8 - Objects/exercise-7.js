@@ -12,3 +12,6 @@ class Hero {
 // Create an instance of a hero using the constructor
 // - the name 'Highlander'
 // - 100 maxHP
+
+// NOTE: creating an instance of a class does not print anything to screen
+// so don't expect any output for this exercise
