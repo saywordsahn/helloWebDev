@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input id="incBtn" type="button" value="Increment">
+</body>
+</html>
+
+<script>
+  let i = 0;
+
+  const incrementButton = document.getElementById('incBtn');
+
+  function increment() {
+    i++;
+    alert(i);
+  }
+
+  incrementButton.addEventListener('click', increment);
+</script>

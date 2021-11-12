@@ -1,0 +1,1 @@
+Modify the index.html page to use the proper style of event handling, addEventListener.

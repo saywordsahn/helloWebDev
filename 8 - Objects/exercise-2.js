@@ -1,4 +1,4 @@
-// exercise-1 solution
+// exercise-2 solution
 
 // DO NOT MODIFY
 let hero = {

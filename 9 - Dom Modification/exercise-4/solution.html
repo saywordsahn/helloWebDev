@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="button" type="button" value="Add a list item">
+    <ul id="aList"></ul>
+</body>
+</html>
+
+<script>
+    let i = 0;
+
+    const button = document.getElementById('button');
+    const aList = document.getElementById('aList');
+
+    button.addEventListener('click', () => {
+       const li = document.createElement('li');
+       li.innerText = 'Item ' + i;
+       aList.appendChild(li);
+       i++;
+    });
+
+</script>
